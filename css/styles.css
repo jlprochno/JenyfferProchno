@@ -1,0 +1,112 @@
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte para o corpo da página */
+    margin: 0; /* Define a margem externa como 0 para evitar espaços indesejados */
+    padding: 0; /* Define o preenchimento interno como 0 para evitar espaços indesejados */
+    box-sizing: border-box; /* Define o modelo de caixa como "border-box" para incluir padding e border no cálculo da largura total */
+    background-color: rgb(250, 230, 255); /* Define a cor de fundo da página como um tom de rosa claro */
+}
+
+/* Estiliza o cabeçalho com uma cor de fundo específica, texto branco e padding */
+header {
+    background-color: rgb(210, 52, 235); /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto como branco */
+    padding: 1rem 0; /* Adiciona padding no topo e na parte inferior */
+}
+
+/* Remove a lista padrão e centra os itens do menu de navegação */
+nav ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove padding padrão da lista */
+    text-align: center; /* Centraliza o conteúdo da lista */
+}
+
+/* Define o display dos itens da lista como inline e adiciona margem entre eles */
+nav ul li {
+    display: inline; /* Coloca os itens da lista na mesma linha */
+    margin: 0 15px; /* Adiciona margem de 15px à esquerda e à direita de cada item */
+}
+
+/* Estiliza os links de navegação com cor branca e sem sublinhado */
+nav ul li a {
+    color: white; /* Define a cor do texto dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Adiciona padding ao conteúdo principal, centraliza o texto e define a cor do texto */
+main {
+    padding: 20px; /* Adiciona 20px de padding ao redor do conteúdo principal */
+    text-align: center; /* Centraliza o texto */
+    color: black; /* Define a cor do texto como preto */
+}
+
+/* Estilo do contêiner na página "Sobre Mim" */
+.about-box {
+    background-color: white; /* Define o fundo branco */
+    border-radius: 15px; /* Arredonda os cantos */
+    padding: 20px; /* Adiciona padding ao redor do conteúdo */
+    margin: 20px auto; /* Adiciona margem acima e abaixo e centraliza horizontalmente */
+    width: 40%; /* Define a largura do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor do contêiner */
+    text-align: justify; /* Alinha o texto de forma justificada */
+}
+
+/* Estilo do contêiner das páginas "Formação Educacional", "Portfolio" e "Contato" */
+.box{
+    background-color: white; /* Define o fundo branco */
+    border-radius: 15px; /* Arredonda os cantos */
+    padding: 20px; /* Adiciona padding ao redor do conteúdo */
+    margin: 20px auto; /* Adiciona margem acima e abaixo e centraliza horizontalmente */
+    width: 40%; /* Define a largura do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor do contêiner */
+    text-align: justify; /* Alinha o texto de forma justificada */ 
+}
+
+/* Define o formulário para usar flexbox, alinhar itens ao centro e organizá-los em coluna */
+form {
+    display: flex; /* Usa flexbox para o layout do formulário */
+    flex-direction: column; /* Organiza os itens do formulário em coluna */
+    align-items: center; /* Alinha os itens ao centro horizontalmente */
+}
+
+/* Adiciona margem superior aos rótulos do formulário */
+form label {
+    margin-top: 10px; /* Adiciona 10px de margem acima dos rótulos */
+}
+
+/* Estiliza os inputs e textarea do formulário */
+form input, form textarea {
+    width: 80%; /* Define a largura dos inputs e textarea como 80% do contêiner pai */
+    padding: 10px; /* Adiciona 10px de padding */
+    margin: 10px 0; /* Adiciona 10px de margem acima e abaixo dos inputs e textarea */
+    border-radius: 10px; /*Arredonda os cantos da caixa de texto*/
+}
+
+/* Estiliza o botão do formulário com padding, cor de fundo, cor do texto, sem borda e cursor pointer */
+form button {
+    padding: 10px 20px; /* Adiciona padding ao botão */
+    background-color: rgb(0, 0, 0); /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Define o cursor como pointer ao passar o mouse sobre o botão */
+    border-radius: 10px; /*Arredonda os cantos do botão*/
+}
+
+/* Arredonda os cantos das imagens */
+img {
+    border-radius: 500px; /* Aplica um grande raio de borda para tornar as imagens circulares */
+}
+
+.image-box{
+    border-radius: 500px; /* Aplica um grande raio de borda para tornar as imagens circulares */
+    padding-left: 90px; /* Adiciona 90px de padding ao lado esquerdo da imagem */
+}
+
+/* Altera o estilo dos links na barra de navegação quando passamos o mouse por cima */
+a:hover {
+    background: rgb(246, 191, 255); /* Define a cor de fundo do link ao passar o mouse */
+    color: rgb(0, 0, 0); /* Define a cor do texto do link ao passar o mouse */
+    font-weight: bold; /* Torna o texto em negrito ao passar o mouse */
+    border-color: rgb(246, 191, 255); /* Define a cor da borda do link ao passar o mouse */
+    border-radius: 2px; /* Arredonda levemente os cantos do link ao passar o mouse */
+}
